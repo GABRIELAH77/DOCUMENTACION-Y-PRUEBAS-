@@ -25,3 +25,11 @@ En la entidad *PRODUCTO, cada registro combina el modelo y el talle correspondie
 * *Segunda Forma Normal (2FN):* Todos los atributos que no son clave primaria dependen funcionalmente de la totalidad de la clave correspondiente.
 * *Tercera Forma Normal (3FN):* Se eliminaron las dependencias transitivas, separando los datos del cliente y del empleado en sus propias entidades e identificadores únicos.
 *
+## Planilla de Control de Pruebas (QA / Testing) - Gabriela del Hoyo
+
+| ID | Módulo / Pantalla | Prueba Realizada | Resultado Esperado | Resultado Obtenido | Estado / Observación |
+|----|------------------|------------------|--------------------|--------------------|-----------------------|
+| 01 | Inicio | Carga de contadores del panel | Mostrar resumen de stock/ventas | Contadores en 0 | ❌ Observado a desarrollo |
+| 02 | Productos | Formato de moneda en interfaz | Mostrar precios con prefijo de pesos ($) | Se identificó prefijo "S/." | ❌ Observado a desarrollo |
+| 03 | Ventas | Registrar venta con varios productos | Permitir asociar múltiples ítems | Detalle_Venta funcional | ✅ Aprobado |
+| 04 | Login | Validación de credenciales | Control de acceso por perfil | Ingreso correcto | ✅ Aprobado |
